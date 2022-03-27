@@ -1,9 +1,11 @@
 package com.mfalves.spring.notificacao;
 
+import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 import com.mfalves.spring.domain.model.Cliente;
 
+@Primary
 @Component
 public class NotificadorSMS implements Notificador {
 

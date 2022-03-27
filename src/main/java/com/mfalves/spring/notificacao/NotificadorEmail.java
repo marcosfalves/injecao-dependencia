@@ -4,6 +4,7 @@ import org.springframework.stereotype.Component;
 
 import com.mfalves.spring.domain.model.Cliente;
 
+//@Primary
 @Component
 public class NotificadorEmail implements Notificador {
 
