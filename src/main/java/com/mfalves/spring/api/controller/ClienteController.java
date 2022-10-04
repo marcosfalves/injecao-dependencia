@@ -16,7 +16,6 @@ public class ClienteController {
 		
 	public ClienteController(AtivacaoClienteService ativacaoClienteService) {
 		this.ativacaoClienteService = ativacaoClienteService;
-		System.out.println("Construtor de ClienteController: " + ativacaoClienteService);
 	}
 
 	@GetMapping
