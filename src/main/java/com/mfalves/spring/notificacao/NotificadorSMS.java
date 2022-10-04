@@ -1,11 +1,11 @@
 package com.mfalves.spring.notificacao;
 
-import org.springframework.context.annotation.Primary;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 import com.mfalves.spring.domain.model.Cliente;
 
-@Primary
+@Qualifier("prioridade-urgente")
 @Component
 public class NotificadorSMS implements Notificador {
 
